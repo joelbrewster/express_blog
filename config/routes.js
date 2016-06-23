@@ -3,6 +3,7 @@ router = express.Router();
 
 //respond to a request of Get on '/
 router.get('/', function(request, response){
+  debugger;
   // response.send('Hello world');
   response.render('index', {title: 'Home Page'});
 });
